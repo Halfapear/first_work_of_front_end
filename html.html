@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2023年番剧观看调查</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="survey-container">
+        <h2>2023年番剧观看调查</h2>
+        <form id="animeSurveyForm">
+            <!-- 单选按钮 -->
+            <div class="question">
+                <p>您今年最喜欢的番剧类型是？</p>
+                <label><input type="radio" name="favoriteType" value="冒险"> 冒险</label>
+                <label><input type="radio" name="favoriteType" value="奇幻"> 奇幻</label>
+                <label><input type="radio" name="favoriteType" value="科幻"> 科幻</label>
+                <label><input type="radio" name="favoriteType" value="恋爱"> 恋爱</label>
+            </div>
+
+            <!-- 多选框 -->
+            <div class="question">
+                <p>您观看过的番剧（可多选）：</p>
+                <label><input type="checkbox" name="watchedAnime" value="番剧A"> 番剧A</label>
+                <label><input type="checkbox" name="watchedAnime" value="番剧B"> 番剧B</label>
+                <label><input type="checkbox" name="watchedAnime" value="番剧C"> 番剧C</label>
+                <label><input type="checkbox" name="watchedAnime" value="番剧D"> 番剧D</label>
+            </div>
+
+            <!-- 文本输入框 -->
+            <div class="question">
+                <p>您最喜欢的番剧角色是：</p>
+                <input type="text" name="favoriteCharacter" placeholder="请输入角色名">
+            </div>
+
+            <!-- 多行文本框 -->
+            <div class="question">
+                <p>您对今年的番剧有何建议或评论：</p>
+                <textarea name="comments" rows="4" placeholder="请输入您的评论"></textarea>
+            </div>
+
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</body>
+</html>
